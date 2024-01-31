@@ -32,10 +32,10 @@ public class PlanCategory {
 	private LocalDate updateDate;
 	
 	@Column(name = "CREATED_BY")
-	private LocalDate createdBy;
+	private String createdBy;
 	
 	@Column(name = "UPDATED_BY")
-	private LocalDate updatedBy;
+	private String updatedBy;
 	
 	
 
